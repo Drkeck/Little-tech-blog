@@ -1,13 +1,11 @@
-async function logoutHandler(event) {
-    event.preventDefault();
-
+async function logoutHandler() {
     const response = await fetch('/api/users/logout', {
         method: 'post',
         headers: { 'Content-Type': 'application/json' }
     });
 
     if (response.ok) {
-        document.location.replace('/');
+        document.location.reload();
     } else {
         alert(response.statusText);
     }
