@@ -37,9 +37,38 @@
     margin: 20px auto;
     width: 94%;
   }
+
+  a {
+    text-decoration: none;
+  }
+
+  nav a, nav button {
+    margin: 0 10px;
+    text-decoration: none;
+    color: var(--primary);
+  }
+  
+  li {
+    list-style: none;
+  }
+
+  ul {
+    padding: 0;
+  }
+
+  span {
+    text-align: end;
+    font-size: small;
+  }
   
   p {
     font-size: 1.2rem;
+    color: var(--dark);
+  }
+
+  #logout {
+    background-color: rgba(0, 0, 0, 0);
+    border: 0em;
   }
   
    .btn {
@@ -48,7 +77,7 @@
     padding: 6px 5px;
     width: 100%;
     display: block;
-    margin: 5px 0;
+    margin: 15px 0;
     border-radius: var(--border-radius);
     color: var(--primary);
     border: none;
@@ -111,6 +140,9 @@
     border-radius: var(--border-radius);
     box-shadow: 6px 5px var(--light-dark);
   }
+  .app-title a {
+    color: var(--dark);
+  }
   
   .list-group {
     padding: 0;
@@ -128,21 +160,6 @@
   
   .list-item:hover {
     background-color: var(--dark);
-  }
-  
-  .status-icon {
-    padding: 2px 5px;
-    margin: 0 5px;
-    background-color: rgba(255,255,255, 1);
-    border-radius: var(--border-radius);
-  }
-  
-  .icon-danger {
-    color: rgb(255, 70, 70);
-  }
-  
-  .icon-success {
-    color: rgb(29, 153, 255);
   }
   
   /* CARDS */
@@ -177,74 +194,23 @@
   
   .form-input {
     width: 100%;
-    padding: 3%;
+    padding: 1%;
     margin: 5px 0;
     font-size: 1.2rem;
     border: 2px solid var(--light-dark);
     border-radius: var(--border-radius);
   }
-  
-  /* HEIGHT / WIDTH UTILS */
-  .min-100-vh {
-    min-height: 100vh;
-  }
-  
-  .min-100-vw {
-    min-width: 100vw;
-  }
-  
+
   /* FONT UTILS */
   .text-uppercase {
     text-transform: uppercase;
   }
-  
-  
-  /* FLEX CONTENT */
-  .flex-row {
-    display: flex;
-    flex-wrap: wrap;
+
+  .center {
+    padding-left: auto;
+    width: 100%;
   }
-  
-  .flex-column {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+
+  .login-signup {
+    display: inline;
   }
-  
-  .justify-space-between {
-    justify-content: space-between;
-  }
-  
-  .justify-space-around {
-    justify-content: space-around;
-  }
-  
-  .justify-flex-start {
-    justify-content: flex-start
-  }
-  
-  .justify-flex-end {
-    justify-content: flex-end;
-  }
-  
-  .justify-center {
-    justify-content: center;
-  }
-  
-  .align-stretch {
-    align-items: stretch;
-  }
-  
-  .align-end {
-    align-items: flex-end;
-  }
-  
-  .align-center {
-    align-items: center;
-  }
-  
-  .col-auto {
-    flex-grow: 1;
-  }
-  
-  
