@@ -18,7 +18,7 @@ async function signupFormHandler(event) {
         });
 
         if (response.ok) {
-            alert('Succesfully created accout');
+            document.location.reload('/dashboard');
         } else {
             alert(response.statusText);
         }
