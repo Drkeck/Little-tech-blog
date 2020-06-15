@@ -4,7 +4,9 @@
         {{#each posts as |post|}}
         <li>
             <div class="card">
-            {{> post-info post }}
+            <a href="/post/{{ post.id }}">
+                {{> post-info post }}
+            </a>
             </div>
         </li>
         {{/each}}
