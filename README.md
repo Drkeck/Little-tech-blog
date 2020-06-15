@@ -16,16 +16,16 @@ all of this was possible through some wonderful technolgy/node packages/lack of 
 ## Made with love, and these amazing tools:
 the packages/tech used to make Little Tech Blog what it is:
 
-* node.js 
+* [node.js](https://nodejs.org/en/download/)
 * css
 * javascript
-* handlebars
-* express.js
-* sequlize
-* Mysql2
-* bcrypt
-* express-session
-* connect-session-sequelize
+* [handlebars](https://www.npmjs.com/package/handlebars)
+* [express](https://www.npmjs.com/package/express)
+* [sequlize](https://www.npmjs.com/package/sequelize)
+* [Mysql2](https://www.npmjs.com/package/mysql2)
+* [bcrypt](https://www.npmjs.com/package/bcrypt)
+* [express-session](https://www.npmjs.com/package/express-session)
+* [connect-session-sequelize](https://www.npmjs.com/package/connect-session-sequelize)
 
 ## Made by!
 [Drkeck](https://www.github.com/drkeck) if you have any questions,
